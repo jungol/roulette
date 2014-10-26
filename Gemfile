@@ -14,6 +14,7 @@ group :development, :test do
   gem 'google-api-client'
   gem 'gmaps4rails'
   gem 'underscore-rails'
+  gem 'google_places'
 end
 
 group :assets do

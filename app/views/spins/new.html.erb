@@ -15,3 +15,8 @@
 	  <%= submit_tag "Spin the wheel" %>
   <% end %>
 <div>
+
+<%= @spots.each do |spot|
+	  spot.name
+	end
+%>

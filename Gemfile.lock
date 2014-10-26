@@ -71,6 +71,8 @@ GEM
       retriable (>= 1.4)
       signet (>= 0.5.0)
       uuidtools (>= 2.1.0)
+    google_places (0.26.0)
+      httparty (~> 0.13.1)
     guard (2.6.1)
       formatador (>= 0.2.4)
       listen (~> 2.7)
@@ -86,6 +88,9 @@ GEM
       spork (>= 0.8.4)
     hike (1.2.3)
     hitimes (1.2.2)
+    httparty (0.13.1)
+      json (~> 1.8)
+      multi_xml (>= 0.5.2)
     i18n (0.6.11)
     jbuilder (1.5.3)
       activesupport (>= 3.0.0)
@@ -110,6 +115,7 @@ GEM
     mini_portile (0.6.0)
     minitest (4.7.5)
     multi_json (1.10.1)
+    multi_xml (0.5.5)
     multipart-post (2.0.0)
     nokogiri (1.6.3.1)
       mini_portile (= 0.6.0)
@@ -220,6 +226,7 @@ DEPENDENCIES
   geocoder
   gmaps4rails
   google-api-client
+  google_places
   guard-rspec
   guard-spork
   jbuilder (~> 1.2)
