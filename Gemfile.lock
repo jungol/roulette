@@ -58,9 +58,7 @@ GEM
       multipart-post (>= 1.2, < 3)
     ffi (1.9.6)
     formatador (0.2.5)
-<<<<<<< HEAD
     geocoder (1.2.5)
-=======
     gmaps4rails (2.1.2)
     google-api-client (0.7.1)
       addressable (>= 2.3.2)
@@ -73,7 +71,6 @@ GEM
       retriable (>= 1.4)
       signet (>= 0.5.0)
       uuidtools (>= 2.1.0)
->>>>>>> 19fa17a8a194617fa7d165ec38c7084e5cb1abe1
     guard (2.6.1)
       formatador (>= 0.2.4)
       listen (~> 2.7)
