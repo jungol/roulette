@@ -7,7 +7,7 @@ describe "Static Pages" do
 
   	it "has the title home" do
   	  visit root_path
-  	  expect(page).to have_selector('h1', text: "home")
+  	  expect(page).to have_selector('h1', text: "Restaurant Roulette")
   	end
   end
 end
