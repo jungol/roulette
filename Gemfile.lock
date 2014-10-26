@@ -50,6 +50,7 @@ GEM
     execjs (2.2.2)
     ffi (1.9.6)
     formatador (0.2.5)
+    geocoder (1.2.5)
     guard (2.6.1)
       formatador (>= 0.2.4)
       listen (~> 2.7)
@@ -184,6 +185,7 @@ DEPENDENCIES
   capybara
   childprocess
   coffee-rails (= 4.0.0)
+  geocoder
   guard-rspec
   guard-spork
   jbuilder (~> 1.2)

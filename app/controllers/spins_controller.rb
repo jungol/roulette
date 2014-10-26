@@ -5,9 +5,14 @@ class SpinsController < ApplicationController
   end
 
   def create
+    location = request.location  
+    # methods are: location.latitude, location.longitude
     
-
-    redirect 'new'
+    # find restaurant by location
+    # @restaurant = [ restaurant ]
+    
+    redirect_to root 
   end
 
 end
+
