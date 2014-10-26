@@ -11,6 +11,9 @@ group :development, :test do
   gem 'guard-spork'
   gem 'childprocess'
   gem 'geocoder'
+  gem 'google-api-client'
+  gem 'gmaps4rails'
+  gem 'underscore-rails'
 end
 
 group :assets do
