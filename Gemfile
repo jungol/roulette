@@ -2,7 +2,12 @@ source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.8'
-
+gem 'geocoder'
+gem 'google-api-client'
+gem 'gmaps4rails'
+gem 'underscore-rails'
+gem 'google_places'
+  
 group :development, :test do
   gem 'sqlite3'
   gem 'rspec-rails'
@@ -10,11 +15,7 @@ group :development, :test do
   gem 'spork-rails'
   gem 'guard-spork'
   gem 'childprocess'
-  gem 'geocoder'
-  gem 'google-api-client'
-  gem 'gmaps4rails'
-  gem 'underscore-rails'
-  gem 'google_places'
+
 end
 
 group :assets do
