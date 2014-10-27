@@ -16,7 +16,9 @@
   <% end %>
 <div>
 
-<%= @spots.each do |spot|
-	  spot.name
+<%= if @spots
+	  @spots.each do |spot|
+	    spot.name
+	  end
 	end
 %>
