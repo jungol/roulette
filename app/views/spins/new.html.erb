@@ -9,16 +9,15 @@
   src="https://www.google.com/maps/embed/v1/search?key=AIzaSyB_QWi7zPKtb69Nl11UJoFUsaxqZZztYWk&q=restaurants">
   </iframe>
 </div>
-
 <div>
   <%= form_tag spins_path do %>
 	  <%= submit_tag "Spin the wheel" %>
   <% end %>
-<div>
+</div>
 
-<%= if @spots
-	  @spots.each do |spot|
-	    spot.name
-	  end
-	end
-%>
+<% if @spots %>
+  <% @spots.each do |spot| %>
+    <p><%= spot.name %></p>
+  <% end %>
+<% end %>
+
